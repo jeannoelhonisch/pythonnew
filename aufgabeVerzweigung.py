@@ -1,17 +1,15 @@
+# Ich erstelle das Bankkonto 
 balance = 0
+# ich erstelle den Input und Output des Kontos über Input
 depositionInput = input('Einzahlen: ')
 balance = depositionInput
+print(depositionInput)
 withdrawingInput = input('Abheben: ')
-kreditwuerdig = None
+balanceminuswithdraw = balance - int(withdrawingInput)
 
-with open("creditworthy.py", "r")  as file:
-    ergebnis == file.read()
-    if ergebnis == True:
-        kreditwuerdig = True
-
-if withdrawingInput > balance and ergebnis == False: 
-    print('sorry but you cant withdraw right now, your request is righer than your deposit')
-elif 
+# Ich gebe an was Ausgegeben werden soll<<
+if withdrawingInput > balance: 
+    print('sorry but you cant withdraw right now, your request is higher than your deposit, Youve got ' + balanceminuswithdraw + "on youre account")
 else: print('you"ve withdrawed youre money, thanks for your visit')
 print(f'du hast ' + balance + '€ auf dem Konto')
 
