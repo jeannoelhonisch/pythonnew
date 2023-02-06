@@ -1,0 +1,10 @@
+konto = 0 euro;
+inputfeldEinzahlen;
+inputfeldAbheben;
+
+if genug Geld(input-Konto) > Konto = 
+	konto-inputAbheben
+	+print('hier ist das Geldbetrag')
+else print('nicht genug drauf')
+
+ 

@@ -1,0 +1,15 @@
+from turtle import *
+
+bgcolor('#aaaaaa')
+goto(0,0)
+goto(0, 100)
+goto(100,100)
+goto(0,100)
+fillcolor('#ff0000')
+begin_fill()
+goto(50, 150)
+goto(100,100)
+end_fill()
+goto(0,0)
+goto(100)
+done()
